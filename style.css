@@ -5,17 +5,21 @@
 }
 
 .header {
+    background-color: aliceblue;
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 2fr;
     grid-column: 2 / 3;
 }
 
 .sidebar {
+    background-color: blue;
     grid-column: 1 / 2;
     grid-row: 1 / 4;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr repeat(10, 1fr);
+    justify-items: center;
+    align-items: center;
 
 }
 
