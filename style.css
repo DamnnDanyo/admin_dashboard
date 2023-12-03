@@ -13,6 +13,9 @@
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 4;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr repeat(10, 1fr);
 
 }
 
