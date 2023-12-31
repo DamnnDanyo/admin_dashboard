@@ -11,8 +11,18 @@
 .header {
     background-color: aliceblue;
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr 2fr;
+    grid-template-columns: 3fr auto auto 1fr;
     grid-column: 2 / 3;
+}
+
+input[type=search] {
+    width: 400px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.notifcation {
+    justify-self: end;
 }
 
 .sidebar {
@@ -62,7 +72,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 .project-title {
@@ -80,36 +90,34 @@
     border-radius: 10px;
     min-height: 275px;
     max-width: 350px;
-
+    padding: 15px;
     
 }
 
 .announcements {
     display: flex;
     flex-direction: column;
-    gap: 20px; 
 }
 
 .announcement-title {
     width: 100%;
-   padding-top: 20px;
-   font-weight: bolder;
-   font-size: large;
-   max-height: 3em;
-
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: large;
+    max-height: 3em;
+    margin-bottom: 20px;
 }
 
 .card-announcement {
     background-color: blanchedalmond;
-    border-radius: 10px;
-    
+    padding: 15px;
 }
 
 .trending {
     grid-column: 2 / 3;
     display: flex;
     flex-direction: column;
-    margin-top: -16em;
+    margin-top: -10em;
 }
 
 .trending-title {
@@ -123,4 +131,5 @@
 
 .card-trending {
     background-color: blanchedalmond;
+    padding: 15px;
 }
