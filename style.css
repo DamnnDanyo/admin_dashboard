@@ -9,9 +9,9 @@
 }
 
 .header {
-    background-color: aliceblue;
+    background-color: white;
     display: grid;
-    grid-template-columns: 3fr auto auto 1fr;
+    grid-template-columns: 3fr auto auto .4fr;
     grid-column: 2 / 3;
 }
 
@@ -24,15 +24,38 @@ input[type=search] {
     background-repeat: no-repeat;
     background-size: 20px;
     padding-left: 30px;
+    height: 29px;
+    background-color: rgb(255, 252, 252);
 }
 
 .profile-picture-little img {
     width: 20px;
     height: 20px;
+    margin-top: -1px;
 }
 
 .notifcation {
     justify-self: end;
+    margin-top: 3px;
+}
+
+.name-header {
+    margin-top: 3px;
+}
+
+button {
+    background-color: rgba(43, 106, 243, 0.918);
+    color: white;
+    border-radius: 19px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+}
+
+.upload-button, .share-button, .new-button {
+    justify-self: center;
+    align-self: center;
 }
 
 .sidebar {
@@ -59,10 +82,11 @@ input[type=search] {
 
 
 .nav {
-    background-color: antiquewhite;
+    background-color: white;
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 100px 3fr repeat(3, 1fr);
+    border-bottom: 2px groove lightgrey;
 }
 
 .profile-picture-big img {
