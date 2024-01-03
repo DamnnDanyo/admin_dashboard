@@ -108,6 +108,18 @@ button {
     filter: invert(100%);
 }
 
+.profile {
+    display: flex;
+}
+
+.profile img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    filter: invert(100%);
+}
+
 
 .nav {
     background-color: white;
