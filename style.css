@@ -120,6 +120,90 @@ button {
     filter: invert(100%);
 }
 
+.messages {
+    display: flex;
+}
+
+.messages img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    filter: invert(100%);
+}
+
+.history {
+    display: flex;
+}
+
+.history img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    filter: invert(100%);
+}
+
+.task {
+    display: flex;
+}
+
+.task img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    filter: invert(100%);
+}
+
+.communities {
+    display: flex;
+}
+
+.communities img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    filter: invert(100%);
+}
+
+.settings {
+    display: flex;
+}
+
+.settings img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    filter: invert(100%);
+}
+
+.support {
+    display: flex;
+}
+
+.support img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    filter: invert(100%);
+}
+
+.privacy {
+    display: flex;
+}
+
+.privacy img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    filter: invert(100%);
+}
+
 
 .nav {
     background-color: white;
