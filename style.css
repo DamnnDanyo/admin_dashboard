@@ -96,6 +96,18 @@ button {
     font-weight: bold;
 }
 
+.home {
+    display: flex;
+}
+
+.home img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    filter: invert(100%);
+}
+
 
 .nav {
     background-color: white;
