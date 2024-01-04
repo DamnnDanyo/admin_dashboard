@@ -46,21 +46,6 @@ input[type=search] {
     margin-left: 5px;
 }
 
-button {
-    background-color: rgb(31, 109, 255);
-    color: white;
-    border-radius: 19px;
-    width: 80px;
-    height: 30px;
-    border: none;
-    font-weight: bold;
-}
-
-.upload-button, .share-button, .new-button {
-    justify-self: center;
-    align-self: center;
-}
-
 .sidebar {
     background-color: rgb(31, 109, 255);
     grid-column: 1 / 2;
@@ -220,7 +205,7 @@ button {
     background-color: white;
     grid-column: 2 / 3;
     display: grid;
-    grid-template-columns: 100px 3fr repeat(3, 1fr);
+    grid-template-columns: 100px 3fr repeat(3, auto);
     align-items: center;
     box-shadow: grey -15px 1px 20px 0px;
 }
@@ -241,6 +226,22 @@ button {
 
 .greeting-name p:first-child {
     font-size: small;
+}
+
+button {
+    background-color: rgb(31, 109, 255);
+    color: white;
+    border-radius: 19px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+}
+
+.upload-button, .share-button, .new-button {
+    justify-self: center;
+    align-self: center;
+    margin: 10px;
 }
 
 .cards {
