@@ -308,23 +308,32 @@ button {
     width: 20px;
 }
 
-[for=toggle-heart] {
+[for=toggle-star] {
+    align-self: center;
     margin-left: auto;
     margin-right: 10px;
     margin-top: -5px;
     color: #aab8c2;
     font-size: 1.8em;
+    font-weight: bolder;
     cursor: pointer;
+    user-select: none;
 }
 
-[id=toggle-heart] {
+[id=toggle-star] {
     position: absolute;
     left: -100vw;
-
+    
     &:checked + label {
-        color: #e2264d;
+        color: rgb(243, 243, 54);
+        will-change: font-size;
+        animation: star .3s cubic-bezier(.17, .89, .32, 1.49);
     }
-} 
+}
+
+@keyframes star {
+    0%, 15% { font-size: 0; }
+  }
 
 .watching {
     margin-right: 10px;
