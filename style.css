@@ -58,6 +58,7 @@ input[type=search] {
     align-items: center;
     z-index: 1;
     row-gap: 10px;
+    box-shadow: grey 4px 3px 6px -4px;
 }
 
 .sidebar-header {
@@ -92,7 +93,8 @@ input[type=search] {
 .home img {
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 14px;
+    margin-left: -6px;
     filter: invert(100%);
 }
 
@@ -105,7 +107,7 @@ input[type=search] {
 .profile img {
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 14px;
     filter: invert(100%);
 }
 
@@ -118,7 +120,8 @@ input[type=search] {
 .messages img {
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 15px;
+    margin-left: 18px;
     filter: invert(100%);
 }
 
@@ -131,7 +134,8 @@ input[type=search] {
 .history img {
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 15px;
+    margin-left: 5px;
     filter: invert(100%);
 }
 
@@ -144,7 +148,8 @@ input[type=search] {
 .task img {
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 14px;
+    margin-left: -9px;
     filter: invert(100%);
 }
 
@@ -157,7 +162,8 @@ input[type=search] {
 .communities img {
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 14px;
+    margin-left: 45px;
     filter: invert(100%);
 }
 
@@ -170,7 +176,8 @@ input[type=search] {
 .settings img {
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 13px;
+    margin-left: 6px;
     filter: invert(100%);
 }
 
@@ -183,7 +190,8 @@ input[type=search] {
 .support img {
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 13px;
+    margin-left: 10px;
     filter: invert(100%);
 }
 
@@ -196,7 +204,8 @@ input[type=search] {
 .privacy img {
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 13px;
+    margin-left: 5px;
     filter: invert(100%);
 }
 
