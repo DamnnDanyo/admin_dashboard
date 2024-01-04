@@ -331,9 +331,124 @@ button {
     }
 }
 
+[for=toggle-star2] {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: -5px;
+    color: #aab8c2;
+    font-size: 1.8em;
+    font-weight: bolder;
+    cursor: pointer;
+    user-select: none;
+}
+
+[id=toggle-star2] {
+    position: absolute;
+    left: -100vw;
+    
+    &:checked + label {
+        color: rgb(243, 243, 54);
+        will-change: font-size;
+        animation: star .3s cubic-bezier(.17, .89, .32, 1.49);
+    }
+}
+
+[for=toggle-star3] {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: -5px;
+    color: #aab8c2;
+    font-size: 1.8em;
+    font-weight: bolder;
+    cursor: pointer;
+    user-select: none;
+}
+
+[id=toggle-star3] {
+    position: absolute;
+    left: -100vw;
+    
+    &:checked + label {
+        color: rgb(243, 243, 54);
+        will-change: font-size;
+        animation: star .3s cubic-bezier(.17, .89, .32, 1.49);
+    }
+}
+
+[for=toggle-star4] {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: -5px;
+    color: #aab8c2;
+    font-size: 1.8em;
+    font-weight: bolder;
+    cursor: pointer;
+    user-select: none;
+}
+
+[id=toggle-star4] {
+    position: absolute;
+    left: -100vw;
+    
+    &:checked + label {
+        color: rgb(243, 243, 54);
+        will-change: font-size;
+        animation: star .3s cubic-bezier(.17, .89, .32, 1.49);
+    }
+}  
+
+[for=toggle-star5] {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: -5px;
+    color: #aab8c2;
+    font-size: 1.8em;
+    font-weight: bolder;
+    cursor: pointer;
+    user-select: none;
+}
+
+[id=toggle-star5] {
+    position: absolute;
+    left: -100vw;
+    
+    &:checked + label {
+        color: rgb(243, 243, 54);
+        will-change: font-size;
+        animation: star .3s cubic-bezier(.17, .89, .32, 1.49);
+    }
+}  
+
+[for=toggle-star6] {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: -5px;
+    color: #aab8c2;
+    font-size: 1.8em;
+    font-weight: bolder;
+    cursor: pointer;
+    user-select: none;
+}
+
+[id=toggle-star6] {
+    position: absolute;
+    left: -100vw;
+    
+    &:checked + label {
+        color: rgb(243, 243, 54);
+        will-change: font-size;
+        animation: star .3s cubic-bezier(.17, .89, .32, 1.49);
+    }
+}
 @keyframes star {
     0%, 15% { font-size: 0; }
   }
+
 
 .watching {
     margin-right: 10px;
