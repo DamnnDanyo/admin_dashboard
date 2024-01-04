@@ -87,7 +87,7 @@ input[type=search] {
 .home {
     display: flex;
     align-items: center;
-    justify-self: center;
+    margin-left: 30px;
 }
 
 .home img {
@@ -101,7 +101,7 @@ input[type=search] {
 .profile {
     display: flex;
     align-items: center;
-    justify-self: center;
+    margin-left: 25px;
 }
 
 .profile img {
@@ -114,7 +114,7 @@ input[type=search] {
 .messages {
     display: flex;
     align-items: center;
-    justify-self: center;
+    margin-left: 6px;
 }
 
 .messages img {
@@ -128,7 +128,7 @@ input[type=search] {
 .history {
     display: flex;
     align-items: center;
-    justify-self: center;
+    margin-left: 19px;
 }
 
 .history img {
@@ -142,7 +142,7 @@ input[type=search] {
 .task {
     display: flex;
     align-items: center;
-    justify-self: center;
+    margin-left: 33px;
 }
 
 .task img {
@@ -156,7 +156,7 @@ input[type=search] {
 .communities {
     display: flex;
     align-items: center;
-    justify-self: center;
+    margin-left: -21px;
 }
 
 .communities img {
@@ -170,7 +170,7 @@ input[type=search] {
 .settings {
     display: flex;
     align-items: center;
-    justify-self: center;
+    margin-left: 19px;
 }
 
 .settings img {
@@ -184,7 +184,7 @@ input[type=search] {
 .support {
     display: flex;
     align-items: center;
-    justify-self: center;
+    margin-left: 16px;
 }
 
 .support img {
@@ -198,7 +198,7 @@ input[type=search] {
 .privacy {
     display: flex;
     align-items: center;
-    justify-self: center;
+    margin-left: 20px;
 }
 
 .privacy img {
@@ -268,7 +268,7 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
-    gap: 15px;
+    gap: 40px;
 }
 
 .project-title {
@@ -309,11 +309,16 @@ button {
 
 .announcement-card{
     background-color: white;
-    border-left: 4px solid orange;
     box-shadow: grey 4px 9px 20px 0px;
     border-radius: 10px;
-    max-height: 480px;
+    max-height: 495px;
     min-width: 250px;
+}
+
+hr {
+    border: 0;
+    height: 1.5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 .card-announcement {
@@ -328,16 +333,16 @@ button {
 
 .trending-title {
     width: 100%;
-   padding-top: 20px;
-   font-weight: bolder;
-   font-size: large;
-   max-height: 3em;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: large;
+    max-height: 3em;
+    margin-bottom: 20px;
 
 }
 
 .card-trending {
     background-color: white;
-    border-left: 4px solid orange;
     box-shadow: grey 4px 9px 20px 0px;
     padding: 15px;
     border-radius: 10px;
