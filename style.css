@@ -1,5 +1,6 @@
 * {
-    padding: 3px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .container {
@@ -13,6 +14,7 @@
     display: grid;
     grid-template-columns: 3fr auto auto .4fr;
     grid-column: 2 / 3;
+    align-items: center;
     z-index: 1;
 }
 
@@ -32,16 +34,16 @@ input[type=search] {
 .profile-picture-little img {
     width: 20px;
     height: 20px;
-    margin-top: -1px;
+    margin: 5px;
 }
 
 .notifcation {
     justify-self: end;
-    margin-top: 3px;
+    margin: 2px 5px 5px 5px;
 }
 
 .name-header {
-    margin-top: 3px;
+    margin-left: 5px;
 }
 
 button {
@@ -66,19 +68,19 @@ button {
     display: grid;
     width: 250px;
     grid-template-columns: minmax(200px, 1fr);
-    grid-template-rows: 175px repeat(10, min(40px));
-    justify-items: center;
+    grid-template-rows: 175px repeat(11, min(40px));
+    justify-items: flex-start;
     align-items: center;
     z-index: 1;
+    row-gap: 10px;
 }
 
 .sidebar-header {
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     width: 200px;
-    justify-self: flex-start;
-    align-self: flex-start;
+    justify-self: center;
 }
 
 .sidebar-header p {
@@ -98,108 +100,117 @@ button {
 
 .home {
     display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
 .home img {
     width: 25px;
     height: 25px;
-    margin-top: 10px;
     margin-right: 10px;
     filter: invert(100%);
 }
 
 .profile {
     display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
 .profile img {
     width: 25px;
     height: 25px;
-    margin-top: 10px;
     margin-right: 10px;
     filter: invert(100%);
 }
 
 .messages {
     display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
 .messages img {
     width: 25px;
     height: 25px;
-    margin-top: 10px;
     margin-right: 10px;
     filter: invert(100%);
 }
 
 .history {
     display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
 .history img {
     width: 25px;
     height: 25px;
-    margin-top: 10px;
     margin-right: 10px;
     filter: invert(100%);
 }
 
 .task {
     display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
 .task img {
     width: 25px;
     height: 25px;
-    margin-top: 10px;
     margin-right: 10px;
     filter: invert(100%);
 }
 
 .communities {
     display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
 .communities img {
     width: 25px;
     height: 25px;
-    margin-top: 10px;
     margin-right: 10px;
     filter: invert(100%);
 }
 
 .settings {
     display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
 .settings img {
     width: 25px;
     height: 25px;
-    margin-top: 10px;
     margin-right: 10px;
     filter: invert(100%);
 }
 
 .support {
     display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
 .support img {
     width: 25px;
     height: 25px;
-    margin-top: 10px;
     margin-right: 10px;
     filter: invert(100%);
 }
 
 .privacy {
     display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
 .privacy img {
     width: 25px;
     height: 25px;
-    margin-top: 10px;
     margin-right: 10px;
     filter: invert(100%);
 }
@@ -210,6 +221,7 @@ button {
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 100px 3fr repeat(3, 1fr);
+    align-items: center;
     box-shadow: grey -15px 1px 20px 0px;
 }
 
@@ -234,7 +246,6 @@ button {
 .cards {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
     width: fit-content;
     gap: 5px;
     background-color: rgb(241, 241, 252);
@@ -246,6 +257,7 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-start;
     gap: 15px;
 }
 
@@ -261,8 +273,8 @@ button {
 
 .card {
     border-radius: 10px;
-    min-height: 275px;
-    max-width: 350px;
+    max-height: 300px;
+    max-width: 260px;
     padding: 15px;
     background-color: white;
     border-left: 4px solid orange;
@@ -272,6 +284,8 @@ button {
 .announcements {
     display: flex;
     flex-direction: column;
+    max-width: 280px;
+    max-height: 750px;
 }
 
 .announcement-title {
@@ -283,20 +297,23 @@ button {
     margin-bottom: 20px;
 }
 
-.card-announcement {
+.announcement-card{
     background-color: white;
     border-left: 4px solid orange;
     box-shadow: grey 4px 9px 20px 0px;
     border-radius: 10px;
+    max-height: 480px;
+    min-width: 250px;
+}
+
+.card-announcement {
     padding: 15px;
 }
 
 .trending {
     grid-column: 2 / 3;
     display: flex;
-    flex-direction: column;
-    margin-top: -10em;
-    
+    flex-direction: column;    
 }
 
 .trending-title {
